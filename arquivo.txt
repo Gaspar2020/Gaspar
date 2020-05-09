@@ -1,1 +1,7 @@
-Primeiro comit
+Lista de comandos do git:
+git add -A => Adiciona os arquivos ao branch.
+git status ==> mostrar os status dos arquivos
+git log ==> mostrar todos os commites que foram naquele branch
+
+Alterado....
+
