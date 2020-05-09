@@ -2,6 +2,10 @@ Lista de comandos do git:
 git add -A => Adiciona os arquivos ao branch.
 git status ==> mostrar os status dos arquivos
 git log ==> mostrar todos os commites que foram naquele branch
+git commit -m ==> enviar os arquivos para o git. Deverá ser incluso o titulo deste commit.
+git commit -am ==> adicion os novos e envia os arquivos alterados para o git. Deverá ser incluso o titulo deste commit.
+git branch ==> mostra em qual branch vc está
+
 
 Alterado....
 
