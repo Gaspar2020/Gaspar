@@ -18,4 +18,4 @@ git reset --hard ==> Desfaz faz tudo que foi feito no último commit, ou seja, s
 
 git diff ==> mostra a diferença dos arquivos commitados e mnao comitados.
 git diff --name-only ==> mostra o nome dos arquivos que foram alterados.
-git diff nome arquivo ==> mostra o que foi alterado no arquivo indicado após o comando.
+git diff nome arquivo ==> mostra o que foi alterado no arquivo 
