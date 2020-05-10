@@ -17,4 +17,4 @@ git reset --mixed ==> volta a situação antes do commit desejado, igual ao -sof
 git reset --hard ==> Desfaz faz tudo que foi feito no último commit, ou seja, some com todas as informações depois do ultimo commit. Não recomenando.
 
 git diff ==> mostra a diferença dos arquivos commitados e mnao comitados.
-git diff --name-only ==> mostra o nome dos arquivos que foram alterados.
+git diff --name-only ==> mostra o nome dos arquivos que foram alterados. teste
