@@ -13,7 +13,8 @@ git reset --soft ==> volta a situação antes do commit desejado, porém com as 
 .
 
 git reset --mixed ==> volta a situação antes do commit desejado, igual ao -soft, porém as informações não estão preparad. Tem que fazer o add novamente. 
-git reset --hard ==> Desfaz faz tudo que foi feito no último commit, ou seja, some com todas as informações depois do ultimo commit. Não recomenando.
- teste4 nsalava na master.....
 
-git 
+git reset --hard ==> Desfaz faz tudo que foi feito no último commit, ou seja, some com todas as informações depois do ultimo commit. Não recomenando.
+
+git diff ==> mostra a diferença dos arquivos commitaods e mnao comitados.
+
