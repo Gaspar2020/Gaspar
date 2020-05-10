@@ -1,0 +1,19 @@
+Lista de comandos do git:
+git add -A => Adiciona os arquivos ao branch.
+git status ==> mostrar os status dos arquivos
+git log ==> mostrar todos os commites que foram naquele branch
+git commit -m ==> enviar os arquivos para o git. Deverá ser incluso o titulo deste commit.
+git commit -am ==> adicion os novos e envia os arquivos alterados para o git. Deverá ser incluso o titulo deste commit.
+
+git branch novobranch ==> cria um novo branch
+git branch ==> mostra em qual branch vc está
+git checkout nomebranch  ==> muda o branch  
+alterei
+git reset --soft ==> volta a situação antes do commit desejado, porém com as alterações feitas nos aqruivos. é ou seja, desfaz o commit. O commite desejado é idenficado por um numero imenso ==> b77313677f58ebff3799c8086b5019206f396a9c
+.
+
+git reset --mixed ==> volta a situação antes do commit desejado, igual ao -soft, porém as informações não estão preparad. Tem que fazer o add novamente. 
+git reset --hard ==> Desfaz faz tudo que foi feito no último commit, ou seja, some com todas as informações depois do ultimo commit. Não recomenando.
+ teste4 nsalava na master.....
+
+git 
