@@ -21,4 +21,22 @@ git diff --name-only ==> mostra o nome dos arquivos que foram alterados.
 git diff nome arquivo ==> mostra o que foi alterado no arquivo 
 git checkout HEAD -- nome arquivo ==> volta o arquivo commitado. HEAD indica a branch que está setada.
 
+Criando repositório no gitHub
+https://github.com/Gaspar2020/Gaspar
+gerando a chave
+$ ssh-keygen -t rsa -b 4096 -C "luiz.gaspar@tngtec.com.br"
+copiar a chave para o repositorio remoto.
+
+git remote add origin https://github.com/Gaspar2020/Gaspar.git ==>
+vincular ou ligar os repositorios local versus remoto: 
+git remote ==> mostra o repositorio remoto
+git remote -v ==> mostra o reposititorio (fetch e push)
+fetch ==> busca conteúdo do repositorio remoto para o local.
+git push -u origin master ==> envia conteúdo do repositorio local para remoto.
+
+git push -u origin master
+
+Meu primeiro pusch => com sucesso
+
+
 
