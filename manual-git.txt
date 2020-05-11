@@ -9,12 +9,14 @@ git branch novobranch ==> cria um novo branch
 git branch ==> mostra em qual branch vc está
 git checkout nomebranch  ==> muda o branch  
 alterei
-git reset --soft ==> volta a situação antes do commit desejado, porém com as alterações feitas nos aqruivos. é ou seja, desfaz o commit. O commite desejado é idenficado por um numero imenso ==> b77313677f58ebff3799c8086b5019206f396a9c
-.
+git reset --soft ==> volta a situação antes do commit desejado, porém com as alterações feitas nos aqruivos. é ou seja, desfaz o commit. O commite desejado é idenficado por um numero imenso ==> b77313677f58ebff3799c8086b5019206f396a9c.
 
-git reset --mixed ==> volta a situação antes do commit desejado, igual ao -soft, porém as informações não estão preparad. Tem que fazer o add novamente. 
+git reset --mixed ==> volta a situação antes do commit desejado, igual ao -soft, porém as informações não estão preparada. Tem que fazer o add novamente. 
 
 git reset --hard ==> Desfaz faz tudo que foi feito no último commit, ou seja, some com todas as informações depois do ultimo commit. Não recomenando.
+
+git revert --no-edit ==> salavdor da sexta-feira- Volta o arquivo com o contendo do commit indicado. 
+
 
 git diff ==> mostra a diferença dos arquivos commitados e mnao comitados.
 git diff --name-only ==> mostra o nome dos arquivos que foram alterados.
@@ -34,9 +36,7 @@ git remote -v ==> mostra o reposititorio (fetch e push)
 fetch ==> busca conteúdo do repositorio remoto para o local.
 git push -u origin master ==> envia conteúdo do repositorio local para remoto.
 
-git push -u origin master
-
-Meu primeiro pusch => com sucesso
+.gitignore ==> arquivo que conterá a lista diretórios ou arquivos ou extensões a serem comitadas, mas não mostrados no repositório remoto.
 
 
 
