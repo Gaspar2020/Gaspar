@@ -7,6 +7,9 @@ git commit -am ==> adicion os novos e envia os arquivos alterados para o git. De
 
 git branch novobranch ==> cria um novo branch
 git branch ==> mostra em qual branch vc está
+
+git branch -D ==> elimina branch local
+
 git checkout nomebranch  ==> muda o branch  
 alterei
 git reset --soft ==> volta a situação antes do commit desejado, porém com as alterações feitas nos aqruivos. é ou seja, desfaz o commit. O commite desejado é idenficado por um numero imenso ==> b77313677f58ebff3799c8086b5019206f396a9c.
